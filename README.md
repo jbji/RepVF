@@ -6,6 +6,8 @@ for Multi-task 3D Perception' (ECCV 2024).
 We will release the data toolkit along with our code and trained model after submission and registration.
 🚧
 # News
+[2024/7/16] RepVF has been released on [arxiv](https://arxiv.org/abs/2407.10876).
+
 [2024/7] Our work has been accepted by **ECCV2024**.
 
 # Abstract
