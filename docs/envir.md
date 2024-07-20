@@ -9,12 +9,12 @@ conda activate repvf
 
 also, you're assumed to have created a workspace folder and navigated into it, and if you haven't:
 
-```
+```bash
 mkdir repvf_workspace
 cd repvf_workspace
 ```
 
-we believe that is one of the best ways to correctly install mmdetection3d without worrying about cuda/pytorch versions mismatch.
+we believe that this is one of the best ways to correctly install mmdetection3d without worrying about cuda/pytorch versions mismatch.
 
 ---
 
@@ -23,7 +23,7 @@ we believe that is one of the best ways to correctly install mmdetection3d witho
 simply run the script:
 
 ```bash
-bash docs/envir.sh
+bash RepVF/docs/envir.sh
 ```
 
 ---
@@ -36,19 +36,20 @@ bash docs/envir.sh
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 ```
 
-we strongly suggest you check if it's been correctly installed by:
+we strongly suggest you check if it's been correctly installed simply by:
 
 ```python
 import torch
 print(torch.cuda.is_available())
 print(torch.zeros(1).cuda())
 ```
+and if not, please refer to our [troubleshoot guide](tourbleshoot.md).
 
 #### devkit
 
 install dataset devkit:
 
-```
+```bash
 # install toolkit for openlane dataset (our implementation)
 cd RepVF/custom_modules/openlane_devkit
 pip install -r requirements.txt
