@@ -1,0 +1,2 @@
+python unified_perception/tools/waymo_adapt_tools/generate_pkl_waymo.py --workers 80 --filter_empty_gt --suffix filtered_300 --lane3d lane3d_300
+python unified_perception/tools/waymo_adapt_tools/create_waymo_gt_bin.py --pkl-path data/waymo/openlane_format/validation_filtered_300.pkl --bin-name cam_gt_filtered_300.bin 
