@@ -43,6 +43,7 @@ import torch
 print(torch.cuda.is_available())
 print(torch.zeros(1).cuda())
 ```
+
 and if not, please refer to our [troubleshoot guide](tourbleshoot.md).
 
 #### devkit
@@ -120,7 +121,7 @@ ln -s $(pwd)/RepVF $(pwd)/mmdetection3d/projects/repvf
 
 ## b. after installation
 
-the file structure after the environment configuration is expected to be:
+the directory structure after the environment configuration is expected to be:
 
 ```bash
 repvf_workspace
@@ -140,4 +141,4 @@ if anything is wrong with the environment, please refer to our [troubleshoot gui
 
 ---
 
-Let's head over to the [data preparation](data.md) part, which gonna be a bit tricky and may take at least up to a week.
+Let's head over to the [data preparation](data.md) part, which gonna be a bit tricky and may take at least a week.

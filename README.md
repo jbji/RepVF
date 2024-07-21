@@ -2,14 +2,14 @@
 
 Official implementation for 'RepVF: A Unified Vector Fields Representation for Multi-task 3D Perception' (ECCV 2024).
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.10876)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2407.10876) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/repvf-a-unified-vector-fields-representation/3d-lane-detection-on-openlane)](https://paperswithcode.com/sota/3d-lane-detection-on-openlane?p=repvf-a-unified-vector-fields-representation)
 
 ![Visualization of the learned representation](./assets/visualize_155301790587230000.svg)
 ![Visualization of RepVF](./assets/visualize_154527205902355000.svg)
 
 # News
 
-[2024/7/20] We're preparing to release the code.
+[2024/7/21] Data toolkit and our code have been released. Weights and demo data will be uploaded later.
 
 [2024/7/16] RepVF has been released on [arxiv](https://arxiv.org/abs/2407.10876).
 
