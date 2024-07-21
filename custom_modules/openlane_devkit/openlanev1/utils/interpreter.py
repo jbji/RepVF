@@ -1,3 +1,10 @@
+# Copyright [2024] Chunliang Li
+# Licensed to the Apache Software Foundation (ASF) under one or more contributor
+# license agreements; and copyright (c) [2024] Chunliang Li;
+# This program and the accompanying materials are made available under the
+# terms of the Apache License 2.0 which is available at
+# http://www.apache.org/licenses/LICENSE-2.0.
+
 # this file includes task interpreter for 3d object detection and 3d lane detection.
 
 # for semantic output, we use grouping to get the final semantic output.
@@ -528,10 +535,12 @@ class DirectionVectorStdBBoxInterpreterHeadingFix(nn.Module):
 
         # Combine these into your bounding box representation
         bbox = torch.stack(
-            [cx, cy, length, width, cz, height, heading[..., 0], heading[..., 1]], dim=-1
+            [cx, cy, length, width, cz, height, heading[..., 0], heading[..., 1]],
+            dim=-1,
         )
 
         return bbox
+
 
 class DirectionVectorMinMaxBBoxInterpreter(nn.Module):
 

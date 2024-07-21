@@ -1,3 +1,10 @@
+# Copyright [2024] Chunliang Li
+# Licensed to the Apache Software Foundation (ASF) under one or more contributor
+# license agreements; and copyright (c) [2024] Chunliang Li;
+# This program and the accompanying materials are made available under the
+# terms of the Apache License 2.0 which is available at
+# http://www.apache.org/licenses/LICENSE-2.0.
+
 # unpack waymo data and arrange them in a way that is similar to openlanev1
 
 import os

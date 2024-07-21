@@ -1,3 +1,10 @@
+# Copyright [2024] Chunliang Li
+# Licensed to the Apache Software Foundation (ASF) under one or more contributor
+# license agreements; and copyright (c) [2024] Chunliang Li;
+# This program and the accompanying materials are made available under the
+# terms of the Apache License 2.0 which is available at
+# http://www.apache.org/licenses/LICENSE-2.0.
+
 import numpy as np
 from scipy.interpolate import interp1d
 
@@ -397,9 +404,9 @@ class GenerateAnchorGroundTruthWaymo:
             # assign anchor tensor values
             gt_anchor[ass_id, 0, 0 : self.num_x_steps] = y_off_values
             gt_anchor[ass_id, 0, self.num_x_steps : 2 * self.num_x_steps] = z_values
-            gt_anchor[
-                ass_id, 0, 2 * self.num_x_steps : 3 * self.num_x_steps
-            ] = visibility
+            gt_anchor[ass_id, 0, 2 * self.num_x_steps : 3 * self.num_x_steps] = (
+                visibility
+            )
 
             # gt_anchor[ass_id, 0, -1] = 1.0
             gt_anchor[ass_id, 0, self.anchor_dim - self.num_category] = 0.0
