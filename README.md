@@ -31,7 +31,15 @@ Concurrent processing of multiple autonomous driving 3D perception tasks within 
 
 # Bibtex
 
-🚧
+```bibtex
+@inproceedings{li2024repvf,
+  title={RepVF: A Unified Vector Fields Representation for Multi-task 3D Perception},
+  author={Li, Chunliang and Han, Wencheng and Yin, Junbo and Zhao, Sanyuan and Shen, Jianbing},
+  booktitle={European Conference on Computer Vision},
+  year={2024},
+  organization={Springer}
+}
+```
 
 # Acknowledgement
 
