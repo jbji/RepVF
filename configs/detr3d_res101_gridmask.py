@@ -1,4 +1,4 @@
-custom_imports = dict(imports=["projects.uni.plugins"])
+custom_imports = dict(imports=["projects.repvf.plugins"])
 
 _base_ = [
     "./_base_/datasets/waymo_1000_multiview_detonly.py",
